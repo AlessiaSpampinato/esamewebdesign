@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800&family=Roboto+Condensed:wght@300;400;700&family=Roboto:wght@300;400;500;700;900&display=swap');
+
+@media only screen and (max-width: 620px) {
+    .menu {
+      flex-direction: column;
+      margin-left: 10%;
+    }
+}
+
+
+
+body {
+    background-color: black;
+    margin: 0;
+    font-family: 'Roboto';
+   
+
+}
+
+.navbarr {
+    background-color: black;
+    text-decoration: none;
+    color: white;
+    max-width: 100%;
+    padding: 10px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 0, auto;
+  
+}
+
+.menu {
+    display: flex;
+    gap: 20px;
+    
+}
+
+
+.menu a{
+    text-decoration: none;
+    color: white;
+    opacity: 1;
+    transition: opacity 0.3s;
+}
+
+.menu a:hover{
+    opacity: 0.7;
+   
+}
+
+.navbarr h2 {
+    color: white;
+  margin: 0;
+}
+
+.hero{
+    position: relative;
+}
+
+.hero img {
+        
+    height: 150px;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+    
+.hero .immagine:before{
+    content: "";
+    background: rgba(0,0,0, 0.5);
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+    
+    .text{
+        max-width: 1000px;
+        margin: auto;
+        text-align: center;
+    }
+    
+    .hero h2 {
+    position: absolute;
+    bottom: 20px;
+    
+    margin: 0;
+    color: #fff;
+    z-index:100;
+    
+    }
+    
+
+
+.artisti_img {
+    display: grid;
+    column-gap: 10%;
+    grid-template-columns:1fr 1fr ;
+    max-width: 900px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.Artisti {
+    width: 100%;
+    text-align: center;
+    margin-top: 70px;
+   
+   
+}
+
+.Artisti h2 {
+    margin-bottom: 50px;
+    font-size: 24px;
+    color: white;
+    
+}
+
+.Artisti img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.artisti_item{
+    text-decoration: none;
+    opacity: 1;
+    transition: opacity 0.3s;
+   
+}
+.artisti_item:hover{
+    opacity: 0.7;
+   
+}
+
+.Artisti .artisti_item h3 {
+    color: white ;
+    font-size: 18px;
+    margin-bottom: 12%;
+}
+
+.uscite {
+    margin-bottom: 0px;
+}
+.uscite-cont {
+    display: grid;
+    column-gap: 10%;
+    row-gap: 8%;
+    grid-template-columns:1fr 1fr ;
+    max-width: 900px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.uscite-img {
+    width: 100%;
+    text-align: center;
+}
+
+.uscite h2 {
+    margin: 50px;
+    color: white;
+    text-align: center;
+}
+
+.uscite img {
+    width: 100%;
+    object-fit:cover;
+    opacity: 1;
+    transition: opacity 0.3s;
+}
+
+.uscite img:hover{
+    opacity: 0.7;
+}
+
+
+
+.uscitevid{
+    margin-top: 16%;
+}
+
+.uscitevid_img {
+    display: grid;
+    column-gap: 10%;
+    grid-template-columns:1fr 1fr ;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.uscitevid_img img{
+    display: block;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.uscitevid_item .play{
+    width: 20%;
+    transform: translate(0, -200%);
+}
+
+.uscitevid_item .play:hover {
+    opacity: 0.5;
+}
+
+
+.nomepag_img{
+    width: 100%; 
+    position: relative;
+    overflow: hidden;
+    padding-top: calc(30% / (16/9)); 
+  }
+  
+  .nomepag_img img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .nomepag_txt {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    z-index: 1;
+   
+  }
+
+
+.footer {
+    margin-top: 8%;
+    background-color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.footer h6 {
+    text-align: center;
+    margin: 0;
+}
+
+
+
+
+
+
+
