@@ -54,13 +54,18 @@ body {
 }
 
 
-.hero img{
-    width: 80vw;
-    height: 60vh;
-    margin-left: 10%;
-    margin-right: 10%;
+.conteinerartista{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.conteinerartista img{
+    width: auto;
+    height: auto;
     object-fit: cover;
-    object-position: 0 40%;
+    object-position: 0 -20px;
+   
 }
 
 .hero h2{
